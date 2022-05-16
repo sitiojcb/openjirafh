@@ -1,0 +1,18 @@
+Instalar mongo db compass en linux debian 11 
+
+https://idroot.us/install-mongodb-compass-debian-11/
+
+sudo apt update
+sudo apt install ca-certificates
+
+chequear tener instalado mongodb en el equipo:
+https://idroot.us/install-mongodb-on-debian-10/
+
+wget https://downloads.mongodb.com/compass/mongodb-compass_1.28.1_amd64.deb
+
+sudo apt install ./mongodb-compass_1.28.1_amd64.deb
+
+sitio oficial:
+https://www.mongodb.com/products/compass
+
+---------------------------
