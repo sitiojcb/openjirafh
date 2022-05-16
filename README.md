@@ -24,6 +24,14 @@ Para correr localmente, necesitamos la base de datos
 docker-compose up -d
 
 ```
+##Mongo d
+
+Recordar ver status de mongod 
+systemctl status mongod
+Si esta inactivo
+```
+systemctl start mongod
+```
 
 - # Mongo URL local (donde corre mi bd localmente)
 
