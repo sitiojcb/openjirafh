@@ -22,7 +22,7 @@ Para correr localmente, necesitamos la base de datos
 
 ```
 docker-compose up -d
-
+docker-compose down
 ```
 ##Mongo d
 
@@ -31,6 +31,7 @@ systemctl status mongod
 Si esta inactivo
 ```
 systemctl start mongod
+systemctl stop mongod
 ```
 
 - # Mongo URL local (donde corre mi bd localmente)
@@ -60,3 +61,11 @@ http://localhost:3000/api/seed
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+git add .
+git commit -m "mensaje"
+git push
+a Vercel se sube desde main 
+en vercel importo el proyecto y doy click en deploy
+en vercel van a estar atentos a los cambios en mi repo main 
+```
